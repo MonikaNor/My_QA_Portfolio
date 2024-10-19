@@ -2691,9 +2691,13 @@ input[type="button"]:disabled,
   -webkit-justify-content: space-between;
   -ms-justify-content: space-between;
   justify-content: space-between;
-  background-color: #1f1815;
+  background-color: rgb(222, 141, 43) !important;
   background-attachment: scroll, scroll;
-  background-image: url("images/overlay.png"), url("../../images/bg.jpeg");
+  background-image: linear-gradient(
+    rgb(21, 8, 77),
+    rgb(37, 72, 155),
+    rgb(222, 141, 43)
+  );
   background-position: top left, top left;
   background-repeat: repeat, no-repeat;
   background-size: auto, 150%;
@@ -3215,8 +3219,12 @@ body.is-touch .poptrox-popup .closer {
 
   #footer {
     background-attachment: scroll;
-    background-color: #1f1815;
-    background-image: url("images/overlay.png"), url("../../images/bg.jpeg");
+    background-color:  rgb(222, 141, 43);
+    background-image: linear-gradient(
+      rgb(222, 141, 43),
+      rgb(37, 72, 155),
+      rgb(21, 8, 77)
+    );
     background-position: top left, bottom center;
     background-repeat: repeat, no-repeat;
     background-size: auto, cover;
